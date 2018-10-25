@@ -9,53 +9,56 @@ html {
 
 .link-card {
   margin: 0;
-  padding: .4em .75em .5em;
+  padding: 0;
   list-style-type: none;
+  text-decoration: none;
 }
 
 .link-card a {
   display: inline-block;
-  margin: 0 .5em 1em;
+  margin: 0;
   max-width: 20em;
   padding: 1em;
+  padding-top: 1.6em;
   background-color: #dcd4cd;
   border: 3px solid #785439;
   border-radius: 10px;
   text-align: left;
 }
 
-h2 {
-  font: bold 100%/1 "Dosis", sans-serif;
-  font-family: "Dosis", sans-serif;
+.link-card h2 {
+  font: bold 100%/1 Dosis, sans-serif;
+  font-family: Dosis, sans-serif;
   text-align: left;
   margin: 0;
   font-size: 1.5rem;
   color: #512200;
+  text-decoration: none;
 }
 
 dt {
   display: inline-block;
-  font: italic 100%/1 "Georgia", serif;
+  font: italic 100%/1 Georgia, serif;
   font-size: .875rem;
   color: #512200;
   float: left;
   width: 50%;
-  padding-top: .3em;
+  padding-top: .5em;
 }
 
 dd {
   display: inline-block;
-  font: italic 100%/1 "Georgia", serif;
+  font: italic 100%/1 Georgia, serif;
   font-size: .875rem;
   color: #512200;
   text-align: left;
   float: right;
   width: 50%;
   margin: 0;
-  padding-top: .3em;
+  padding-top: .5em;
 }
 
-.link-card a:hover {
+.link-card:hover {
   background-color: #cabdb2;
 }
 
@@ -64,8 +67,8 @@ dd {
   padding: .5em .75em;
   background-color: #785439;
   border-radius: 4px;
-  font: bold 100%/1 "Dosis", sans-serif;
-  font-family: "Dosis", sans-serif;
+  font: bold 100%/1 Dosis, sans-serif;
+  font-family: Dosis, sans-serif;
   font-size: 1.125rem;
   color: #fff;
   text-decoration: none;
@@ -73,10 +76,6 @@ dd {
   margin-bottom: .3em;
   margin-top: .3em;
   margin-left: 25%;
-}
-
-a:hover {
-  background-color: #9a816d;
 }
 
 .btn {
@@ -95,14 +94,15 @@ dl {
 }
 
 p {
-  font: 100%/1 "Georgia", serif;
+  font: 100%/1 Georgia, serif;
   font-size: 1rem;
   color: #512200;
   line-height: 1.5em;
   margin-bottom: 0;
-
+  text-decoration: none;
+  padding-top: .3em;
 }
 
-.button {
-  padding: .5em;
+div {
+  width: 100%;
 }
