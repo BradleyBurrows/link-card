@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  background-color: #f0eee8;
 }
 
 *, *::before, *::after {
@@ -12,7 +13,7 @@ html {
   list-style-type: none;
 }
 
-.link-card li {
+.link-card a {
   display: inline-block;
   margin: 0 .5em 1em;
   max-width: 20em;
@@ -23,7 +24,7 @@ html {
   text-align: left;
 }
 
-strong {
+h2 {
   font: bold 100%/1 "Dosis", sans-serif;
   font-family: "Dosis", sans-serif;
   text-align: left;
@@ -54,11 +55,11 @@ dd {
   padding-top: .3em;
 }
 
-.link-card li:hover {
+.link-card a:hover {
   background-color: #cabdb2;
 }
 
-a {
+.button {
   display: inline-block;
   padding: .5em .75em;
   background-color: #785439;
@@ -94,9 +95,14 @@ dl {
 }
 
 p {
-  font-size: 1.125rem;
+  font: 100%/1 "Georgia", serif;
+  font-size: 1rem;
+  color: #512200;
+  line-height: 1.5em;
+  margin-bottom: 0;
+
 }
 
 .button {
-  padding: .5em;mark
+  padding: .5em;
 }
